@@ -1,5 +1,5 @@
 title: Stitch Fix Challenge
-output: sf-test.html
+output: index.html
 controls: true
 theme: select/cleaver-select-theme
 style: style.css
@@ -101,5 +101,6 @@ CloudFormation then updates the stack with the new AMI of the service.
 -- w128
 
 # That's it.  Simple.
+## https://github.com/abuecker/sf-test
 
 ![](./diagrams/gipsy_raf.128.jpg)
