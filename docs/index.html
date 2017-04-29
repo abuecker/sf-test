@@ -659,7 +659,7 @@ kbd {
 <li>Migrate Heroku Rails services to AWS</li>
 <li>Support both public and private services</li>
 <li>Migrate database from Heroku to AWS</li>
-<li>Each service has it&#39;s own database and cache</li>
+<li>Each service has its own database and cache</li>
 <li>No down time</li>
 </ul>
 </section>
@@ -682,9 +682,9 @@ kbd {
 <p>Stand up a private AWS stack along side of Heroku.</p>
 <p>VPC Security Groups are used to restricted access to specific location IP&#39;s.</p>
 <p>Disable allocation of Public IP&#39;s on the subnets.</p>
-<p>Load balancers distribute the traffic to the Rails service that is managed by
+<p>Load balancers distribute the traffic to the Rails services that are managed by
 Auto Scaling Groups.</p>
-<p>The Rails service has its own auto scaled RDS for postgres and ElasticCache
+<p>The Rails services have their own auto scaled RDS for postgres and ElasticCache
 for Redis.</p>
 </section>
       </div>
@@ -694,7 +694,7 @@ for Redis.</p>
         <div data-id="5" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="aws-public-services">AWS Public Services</h3>
 <p><img src="./diagrams/3_aws_pub.svg" alt="AWS Public"></p>
-<p>The public stack is similar to the private stack, but has a publicly accessible
+<p>The public stack is similar to the private stack, but has publicly accessible
 ELB&#39;s.</p>
 </section>
       </div>
@@ -704,8 +704,8 @@ ELB&#39;s.</p>
         <div data-id="6" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="database-migration">Database Migration</h3>
 <p><img src="./diagrams/4_migration.svg" alt="Migration"></p>
-<p>The AWS Migration Service continually replicates Heroku Postgres databases to
-RDS.</p>
+<p>The AWS Migration Service continually replicates the Heroku Postgres databases
+to RDS.</p>
 </section>
       </div>
     </div>
@@ -714,7 +714,8 @@ RDS.</p>
         <div data-id="7" class="slide-overlay"></div>
         <section class="slide-content"><h3 id="teardown">Teardown</h3>
 <p><img src="./diagrams/5_complete.svg" alt="Teardown"></p>
-<p>When the services on AWS pass integration tests, swap DNS from Heroku to AWS.</p>
+<p>When the services on AWS pass integration tests, swap the DNS from Heroku to
+AWS.</p>
 <p>Eventually, teardown the Heroku services and AWS Migration Service.</p>
 </section>
       </div>
@@ -741,7 +742,7 @@ the scaling of the nodes to stay within a minimum and maximum node count.</p>
 <p><img src="./diagrams/cd.svg" alt="CD"></p>
 <p>As part of the continuos delivery process for each service, Packer builds an
 AMI of the service.</p>
-<p>CloudFormation then updates the stack with the new AMI of the service.</p>
+<p>CloudFormation then updates the stack with the new AMI.</p>
 </section>
       </div>
     </div>
