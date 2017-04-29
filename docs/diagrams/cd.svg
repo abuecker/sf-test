@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="223px" viewBox="0 0 384 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>cd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cd" transform="translate(0.000000, -3.000000)">
+            <path d="M129.026403,114 C129.026403,157.07821 163.942282,192 207.013201,192 C250.084121,192 285,157.07821 285,114 C285,70.9217895 250.084121,36 207.013201,36 C185.371795,36 165.789258,44.8165599 151.660309,59.0543868 L161.088752,67.2504074 C172.984831,55.5578207 189.297138,48.3453237 207.293729,48.3453237 C243.7026,48.3453237 273.217822,77.8655415 273.217822,114.280576 C273.217822,150.69561 243.7026,180.215827 207.293729,180.215827 C170.884858,180.215827 141.369637,150.69561 141.369637,114.280576 C141.369637,114.187005 141.369832,114.093479 141.370221,114 L155.39604,114 L135.19802,73.5971223 L115,114 L129.026403,114 Z" id="Combined-Shape" stroke="#205B99" fill="#5294CF"></path>
+            <text id="Update-CloudFormatio" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold" letter-spacing="-0.400000006" fill="#19486F">
+                <tspan x="0" y="106">Update </tspan>
+                <tspan x="0" y="123">CloudFormation</tspan>
+                <tspan x="0" y="140">Stack</tspan>
+            </text>
+            <text id="Test-Service" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold" letter-spacing="-0.400000006" fill="#19486F">
+                <tspan x="307" y="116">Test Servic</tspan>
+                <tspan x="376.277734" y="116">e</tspan>
+            </text>
+            <text id="Build-Service" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold" letter-spacing="-0.400000006" fill="#19486F">
+                <tspan x="166" y="14">Build Service</tspan>
+            </text>
+            <text id="Packer-AMI" font-family="Helvetica-Bold, Helvetica" font-size="14" font-weight="bold" letter-spacing="-0.400000006" fill="#19486F">
+                <tspan x="173" y="225">Packer AMI</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

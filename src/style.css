@@ -1,0 +1,30 @@
+.slide {
+  padding: 25px;
+  overflow: auto;
+}
+.slide-content {
+  margin-top: 0;
+  max-height: none;
+}
+
+.slide-content img {
+  display: block;
+  margin: auto;
+  max-width: 800px;
+}
+
+.p75 .slide-content img {
+  width: 75%;
+}
+
+.p50 .slide-content img {
+  width: 50%;
+}
+
+.p25 .slide-content img {
+  width: 25%;
+}
+
+.w128 .slide-content img {
+  width: 128px;
+}
