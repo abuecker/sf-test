@@ -16,7 +16,7 @@ style: style.css
 * Migrate Heroku Rails services to AWS
 * Support both public and private services
 * Migrate database from Heroku to AWS
-* Each service has it's own database and cache
+* Each service has its own database and cache
 * No down time
 
 --
@@ -39,10 +39,10 @@ VPC Security Groups are used to restricted access to specific location IP's.
 
 Disable allocation of Public IP's on the subnets.
 
-Load balancers distribute the traffic to the Rails service that is managed by
+Load balancers distribute the traffic to the Rails services that are managed by
 Auto Scaling Groups.
 
-The Rails service has its own auto scaled RDS for postgres and ElasticCache
+The Rails services have their own auto scaled RDS for postgres and ElasticCache
 for Redis.
 
 --
@@ -51,7 +51,7 @@ for Redis.
 
 ![AWS Public](./diagrams/3_aws_pub.svg)
 
-The public stack is similar to the private stack, but has a publicly accessible
+The public stack is similar to the private stack, but has publicly accessible
 ELB's.
 
 --
@@ -60,8 +60,8 @@ ELB's.
 
 ![Migration](./diagrams/4_migration.svg)
 
-The AWS Migration Service continually replicates Heroku Postgres databases to
-RDS.
+The AWS Migration Service continually replicates the Heroku Postgres databases
+to RDS.
 
 --
 
@@ -69,7 +69,8 @@ RDS.
 
 ![Teardown](./diagrams/5_complete.svg)
 
-When the services on AWS pass integration tests, swap DNS from Heroku to AWS.
+When the services on AWS pass integration tests, swap the DNS from Heroku to
+AWS.
 
 Eventually, teardown the Heroku services and AWS Migration Service.
 
@@ -96,7 +97,7 @@ the scaling of the nodes to stay within a minimum and maximum node count.
 As part of the continuos delivery process for each service, Packer builds an
 AMI of the service.
 
-CloudFormation then updates the stack with the new AMI of the service.
+CloudFormation then updates the stack with the new AMI.
 
 -- w128
 
