@@ -1,4 +1,4 @@
-title: Stitch Fix Challenge
+title: Stitch Fix Project
 output: index.html
 controls: true
 theme: select/cleaver-select-theme
@@ -6,7 +6,7 @@ style: style.css
 
 --
 
-# Stitch Fix Challenge
+# Stitch Fix Project
 ## Andy Buecker
 
 --
