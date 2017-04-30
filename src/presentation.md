@@ -42,7 +42,7 @@ Disable allocation of Public IP's on the subnets.
 Load balancers distribute the traffic to the Rails services that are managed by
 Auto Scaling Groups.
 
-The Rails services have their own auto scaled RDS for postgres and ElasticCache
+The Rails services have their own auto scaled RDS for Postgres and ElasticCache
 for Redis.
 
 --
@@ -101,7 +101,7 @@ CloudFormation then updates the stack with the new AMI.
 
 -- w128
 
-# That's it.  Simple.
+# That's it.
 ## https://github.com/abuecker/sf-test
 
 ![](./diagrams/gipsy_raf.128.jpg)
