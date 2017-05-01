@@ -94,7 +94,7 @@ the scaling of the nodes to stay within a minimum and maximum node count.
 ![CD](./diagrams/cd.svg)
 
 
-As part of the continuos delivery process for each service, Packer builds an
+As part of the continuous delivery process for each service, Packer builds an
 AMI of the service.
 
 CloudFormation then updates the stack with the new AMI.
